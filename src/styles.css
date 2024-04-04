@@ -1,0 +1,119 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos Gerais */
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000714;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    width: 150px;
+}
+
+.text-color {
+    color: #00ffffda;
+}
+
+.interface {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    padding: 20px 4%;
+}
+
+.navbar-desktop {
+    margin-left: 500px; /* Ajuste conforme necessário */
+}
+
+header nav ul {
+    font-size: 15px;
+    list-style-type: none;
+}
+
+header > .interface .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar-desktop span {
+    color: #00ffffda;
+}
+
+.resume {
+    font-size: 15px;
+    font-weight: 400;
+    border: solid 2px #00ffffda;
+    background-color: #000714;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    color: #00ffffda;
+    cursor: pointer;
+    box-shadow: 0 0 8px #00ffffda;
+    transition: .2s;
+}
+
+.resume:hover {
+    transform: scale(1.05);
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* Estilos para a primeira seção */
+.welcome {
+    width: 100%;
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-text {
+    overflow: wrap;
+    
+}
+
+.first-text h2,
+.build {
+    font-size: 70px;
+}
+
+.check {
+    margin-left: 57px;/* Ajuste conforme necessário */
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: #00ffffda;
+    cursor: pointer;
+    border: solid 2px #00ffffda;
+    background-color: #000714;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0 0 8px #00ffffda;
+    transition: .2s;
+}
+
+.check:hover {
+    transform: scale(1.05);
+}
